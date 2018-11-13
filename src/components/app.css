@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem;
+  grid-template-rows: 20rem 20rem 20rem;
+}
+
+.grid > div {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.grid > div > h1 {
+  margin-top: 40%;
+}
+
+.hover {
+  transition: 0.25s;
+  background-color: rgba(120, 120, 120, 0.2);
+}
